@@ -21,7 +21,7 @@
 
 
 #home-container {
-    background-color: rgb(218, 205, 29);
+    background: rgb(21 21 21);
     height: 500px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .show-color {
-    background-color: rgb(167 160 71) !important;
+    background-color: rgb(21 21 21) !important;
 }
 
 .transparent {
@@ -188,11 +188,11 @@
 }
 
 .show-color {
-    background-color: rgb(167 160 71) !important;
+    background-color: rgb(21 21 21) !important;
 }
 
 .show-color-two {
-    background-color: rgb(255, 245, 101) !important;
+    background-color: rgb(21 21 21) !important;
 }
 
 .transparent {
