@@ -1,0 +1,328 @@
+#navbar {
+    background-color:transparent !important;
+    position: sticky;
+}
+
+.home-nav {
+    color: blue;
+}
+
+.home-nav:hover {
+    animation: change 1s infinite;
+}
+
+.project-nav:hover {
+    animation: change 1s infinite;
+}
+
+.about-nav:hover {
+    animation: change 1s infinite;
+}
+
+
+#home-container {
+    background-color: rgb(255, 245, 101);
+    height: 500px;
+}
+
+#title-container {
+    margin-bottom: 100px;
+}
+
+
+.hometitle {
+    font-size: 3vw;
+}
+
+.show-color {
+    background-color: rgb(167 160 71) !important;
+}
+
+.transparent {
+    background-color: #00000057 !important;
+}
+
+/* TITLE TYPING ANIM */
+
+#title-code {
+    color: black !important;
+}
+
+.type-text {
+    color:#ff4800
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    animation: blink 0.9s infinite;
+}
+
+.typing {
+    animation: none;
+}
+
+/* SOCIALS BUTTONS */
+.facebookBtn:hover {
+    transform: scale(1.1    );
+}
+
+/* CONTACT BUTTON ANIM */
+
+.button-contact {
+    border-radius: 10px !important;
+    background-color: #ff7070;
+    animation: change 0.9s infinite;
+    color: white;
+}
+
+.iloveyou {
+    visibility: hidden;
+}
+
+.button-contact:hover {
+    animation: change 0.9s infinite;
+    background-color: rgb(255, 0, 0);
+}
+
+/* CONTACT BUTTON NAV */
+.button-nav-contact {
+    visibility: hidden;
+    border: 1px solid white;
+    position: absolute;
+    border-radius: 0;
+}
+
+.button-nav-contact:hover {
+    background-color: white;
+    color: black !important;
+    animation: change 0.9s infinite;
+}
+
+/* ABOUT SECTION */
+#my-img {
+    height: 500px !important;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+#about-card:hover #my-img {
+    animation: playrot 1s infinite;
+}
+
+.card-body {
+    display: flex;
+}
+
+@media (max-width: 660px) {
+    .card-body {
+        display: block;
+        margin-left: 0;
+    }
+
+    #my-img {
+        height: 100%;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 710px) {
+    .hometitle {
+        font-size: 6vw;
+    }
+}
+
+/* CONSTANTS */
+.white {
+    color: white !important;
+}
+
+.show {
+    visibility: visible !important;
+    opacity: 100% !important;
+    position: static;
+}
+
+/* Animations */
+
+@keyframes blink {
+    0% { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: #ccc;}
+}
+
+@keyframes change {
+    0% { color: white;}
+    50% { color: #64ff85; }
+    100% { color: white; }
+}
+
+@keyframes playrot {
+    0% { transform: rotate(4deg); }
+    49% { transform: rotate(4deg); }
+    50% { transform: rotate(-4deg); }
+    99% { transform: rotate(-4deg); }
+    100% { transform: rotate(4deg); }
+}
+
+#home-container {
+    background-color: rgb(255, 245, 101);
+    height: 500px;
+}
+
+#title-container {
+    margin-bottom: 100px;
+}
+
+#navbar-nav {
+    background-color: rgb(167 160 71);
+}
+
+.hometitle {
+    font-size: 3vw;
+}
+
+.show-color {
+    background-color: rgb(167 160 71) !important;
+}
+
+.show-color-two {
+    background-color: rgb(255, 245, 101) !important;
+}
+
+.transparent {
+    background-color: #00000057 !important;
+}
+
+/* TITLE TYPING ANIM */
+
+#title-code {
+    color: black !important;
+}
+
+.type-text {
+    color:#ff4800
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    animation: blink 0.9s infinite;
+}
+
+.typing {
+    animation: none;
+}
+
+/* SOCIALS BUTTONS */
+.facebookBtn:hover {
+    transform: scale(1.1    );
+}
+
+/* CONTACT BUTTON ANIM */
+
+.button-contact {
+    border-radius: 10px !important;
+    background-color: #ff7070;
+    animation: change 0.9s infinite;
+    color: white;
+}
+
+.iloveyou {
+    visibility: hidden;
+}
+
+.button-contact:hover {
+    animation: change 0.9s infinite;
+    background-color: rgb(255, 0, 0);
+}
+
+/* CONTACT BUTTON NAV */
+.button-nav-contact {
+    visibility: hidden;
+    border: 1px solid white;
+    position: absolute;
+    border-radius: 0;
+}
+
+.button-nav-contact:hover {
+    background-color: white;
+    color: black !important;
+    animation: change 0.9s infinite;
+}
+
+/* ABOUT SECTION */
+#my-img {
+    height: 500px !important;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+#about-card:hover #my-img {
+    animation: playrot 1s infinite;
+}
+
+.card-body {
+    display: flex;
+}
+
+@media (max-width: 660px) {
+    .card-body {
+        display: block;
+        margin-left: 0;
+    }
+
+    #my-img {
+        height: 100%;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 710px) {
+    .hometitle {
+        font-size: 6vw;
+    }
+}
+
+/* CONSTANTS */
+.white {
+    color: white !important;
+}
+
+.show {
+    visibility: visible !important;
+    opacity: 100% !important;
+    position: static;
+}
+
+/* Animations */
+
+@keyframes blink {
+    0% { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: #ccc;}
+}
+
+@keyframes change {
+    0% { color: white;}
+    50% { color: #64ff85; }
+    100% { color: white; }
+}
+
+@keyframes playrot {
+    0% { transform: rotate(4deg); }
+    49% { transform: rotate(4deg); }
+    50% { transform: rotate(-4deg); }
+    99% { transform: rotate(-4deg); }
+    100% { transform: rotate(4deg); }
+}
