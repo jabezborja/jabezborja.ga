@@ -1,0 +1,113 @@
+#navbar {
+    background-color:transparent !important;
+    position: sticky;
+}
+
+.home-nav {
+    color: blue;
+}
+
+.home-nav:hover {
+    animation: change 1s infinite;
+}
+
+.project-nav:hover {
+    animation: change 1s infinite;
+}
+
+.about-nav:hover {
+    animation: change 1s infinite;
+}
+
+
+.show-color {
+    background-color: #30383233 !important;
+}
+
+.transparent {
+    background-color: #00000057 !important;
+}
+
+/* CONTACT BUTTON NAV */
+.button-nav-contact {
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+.button-nav-contact:hover {
+    background-color: white;
+    color: black !important;
+    animation: change 0.9s infinite;
+}
+
+/* Project */
+#project-logo {
+    border-radius: 7px;
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+}
+
+.card-body {
+    display: flex !important;
+}
+
+.proj-img:hover {
+    transform: scale(1.1);
+}
+
+/* CONSTANTS */
+.white {
+    color: white !important;
+}
+
+.show {
+    visibility: visible !important;
+    opacity: 100% !important;
+}
+
+.project-view {
+    width: 1100px !important;
+}
+
+/* Responsiveness Handler */
+@media (max-width: 580px) {
+    .--main-div-container {
+        display: table-column !important;
+    }
+
+    .proj-img {
+        width: 100% !important;
+        height: 300px !important;
+    }
+
+    .project-view {
+        width: 400px !important;
+    }
+
+    #project-logo {
+        width: 100%;
+        margin: 0px;
+        height: 300px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1125px) and (min-width: 581px){
+    .--main-div-container {
+        display: table-column !important;
+    }
+
+    #project-logo {
+        height: 100%;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+}
+
+/* Animations */
+@keyframes change {
+    0% { color: white;}
+    50% { color: #64ff85; }
+    100% { color: white; }
+}

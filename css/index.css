@@ -223,15 +223,14 @@
 
 /* SOCIALS BUTTONS */
 .facebookBtn:hover {
-    transform: scale(1.1    );
+    transform: scale(1.1);
 }
 
 /* CONTACT BUTTON ANIM */
 
 .button-contact {
-    border-radius: 10px !important;
-    background-color: #ff7070;
-    animation: change 0.9s infinite;
+    border-radius: 3px !important;
+    background-color: #1b1b1b;
     color: white;
 }
 
@@ -241,7 +240,7 @@
 
 .button-contact:hover {
     animation: change 0.9s infinite;
-    background-color: rgb(255, 0, 0);
+    background-color: #3b3b3b;
 }
 
 /* CONTACT BUTTON NAV */
