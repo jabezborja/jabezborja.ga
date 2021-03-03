@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(21 21 21);;
+}
+
 #navbar {
     background-color:transparent !important;
     position: sticky;
@@ -19,6 +23,16 @@
     animation: change 1s infinite;
 }
 
+.social-links {
+    text-decoration: underline;
+    color: rgb(146, 146, 146);
+}
+
+.social-links:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
 
 #home-container {
     background: rgb(21 21 21);
@@ -300,6 +314,10 @@
     visibility: visible !important;
     opacity: 100% !important;
     position: static;
+}
+
+.solid {
+    border-top: 3px solid #bbb;
 }
 
 /* Animations */
