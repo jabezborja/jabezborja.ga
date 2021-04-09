@@ -28,6 +28,14 @@ const projectTemplate = `<div class="d-flex justify-content-center">
 
 let projectList = [
     [
+        "Jabsga URL Shortener",
+        "Jabsga is a free URL shortening service for making URLs more shorter and more concise. Created with Python Django Web Framework, the design is not yet good, you can help me with the design and make it better time by time 😊 Feel free to open a pull request!",
+        "0.3.0",
+        "Python Django Web Framework",
+        "Just this April 1, 2021",
+        "Jabsga.PNG"
+    ],
+    [
         "PyFyre Web Framework",
         "A Python web user interface framework for building reactive static websites. PyFyre is free and open source project. I created this framework because I love Python and I don't like JavaScript. Who use ReactJS? Let's use PyFyre.",
         "0.2.0",
