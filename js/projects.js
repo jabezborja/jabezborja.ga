@@ -1,6 +1,6 @@
 
 const projectTemplate = `<div class="d-flex justify-content-center">
-                    <a href="https://github.com/jabezborja/PyNani" style="color: black; text-decoration: none;">
+                    <a href="%link%" style="color: black; text-decoration: none;">
                         <div class="card m-4 project-view project-card">
                             <div class="card-header project-title-card">
                                 %title%
@@ -33,7 +33,8 @@ let projectList = [
         "0.3.0",
         "Python Django Web Framework",
         "Just this April 1, 2021",
-        "Jabsga.PNG"
+        "Jabsga.PNG",
+        "https://jabsga.herokuapp.com/"
     ],
     [
         "PyFyre Web Framework",
@@ -41,7 +42,8 @@ let projectList = [
         "0.2.0",
         "Python",
         "Just this March 10, 2021",
-        "PyNani_Xample.PNG"
+        "PyNani_Xample.PNG",
+        "https://github.com/pyfyre/pyfyre"
     ],
     [
         "TagaLang Programming Language",
@@ -49,7 +51,8 @@ let projectList = [
         "0.2.1a",
         "Python",
         "Just November, 2020",
-        "TagaLag_Xample.PNG"
+        "TagaLag_Xample.PNG",
+        "https://github.com/jabezborja/tagalang"
     ],
     [
         "Jarvan AI",
@@ -57,7 +60,8 @@ let projectList = [
         "1.0.0",
         "Python",
         "Just October, 2020",
-        "Jarvan.jpg"
+        "Jarvan.jpg",
+        "https://github.com/jabezborja/jarvan-ai"
     ],
     [
         "To Do Modules",
@@ -65,7 +69,8 @@ let projectList = [
         "1.0.0",
         "Python Django Web Framework",
         "Just October, 2020",
-        "ToDoTask_Xample.PNG"
+        "ToDoTask_Xample.PNG",
+        "https://github.com/jabezborja/to-do-modules"
     ]
 ];
 
@@ -75,6 +80,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     projectList.forEach((project) => {
         let project_item = projectTemplate
+            .replace("%link%", project[6])
             .replace("%title%", project[0])
             .replace("%desc%", project[1])
             .replace("%version%", project[2])
