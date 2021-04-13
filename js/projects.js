@@ -28,6 +28,15 @@ const projectTemplate = `<div class="d-flex justify-content-center">
 
 let projectList = [
     [
+        "Koowentu",
+        "A Filipino social storytelling, content-sharing, community, and collaboration platform. I've been focusing for this Startup app. We are working for this product as a team and planning to beta release soon. You can join by clicking this Project. Thank you!",
+        "Too early for this",
+        "Not ready for publicity tech stack",
+        "Dec, 2020",
+        "koowentu-logo.png",
+        "https://koowentu.com"
+    ],
+    [
         "Jabsga URL Shortener",
         "Jabsga is a free URL shortening service for making URLs more shorter and more concise. Created with Python Django Web Framework, the design is not yet good, you can help me with the design and make it better time by time 😊 Feel free to open a pull request!",
         "0.3.0",
