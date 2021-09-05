@@ -88,7 +88,6 @@ body {
 .button-contact {
     border-radius: 10px !important;
     background-color: #ff7070;
-    animation: change 0.9s infinite;
     color: white;
 }
 
@@ -122,9 +121,6 @@ body {
     margin-left: 40px;
 }
 
-#about-card:hover #my-img {
-    animation: playrot 1s infinite;
-}
 
 .card-body {
     display: flex;
@@ -274,12 +270,8 @@ body {
 /* ABOUT SECTION */
 #my-img {
     height: 500px !important;
-    border-radius: 10px;
+    border-radius: 500px;
     margin-left: 40px;
-}
-
-#about-card:hover #my-img {
-    animation: playrot 1s infinite;
 }
 
 .card-body {

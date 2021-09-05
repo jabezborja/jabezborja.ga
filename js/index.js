@@ -20,7 +20,7 @@ const typedTextSpan = document.querySelector('.typed-text');
 const iLoveyouToo = document.querySelector('.button-contact');
 const typing = document.getElementById('title-text')
 
-const textArray = ["Jabez Borja />", "a student />", "a programmer />", "a software developer />", "a web developer />", "a mobile app developer />"]
+const textArray = ["Jabez Borja />", "a student />", "a software developer />", "an entrepreneur />"]
 let textArrayIndex = 0;
 let charIndex = 0;
 
