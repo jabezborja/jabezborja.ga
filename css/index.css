@@ -278,6 +278,10 @@ body {
     display: flex;
 }
 
+.work-with-me {
+    font-size: 30px;
+}
+
 @media (max-width: 660px) {
     .card-body {
         display: block;
@@ -285,7 +289,7 @@ body {
     }
 
     #my-img {
-        height: 10%;
+        height: 28% !important;
         width: 100%;
         margin-left: 0px;
     }
