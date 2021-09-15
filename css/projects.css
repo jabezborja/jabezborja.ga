@@ -48,17 +48,13 @@ body {
 /* Project */
 #project-logo {
     border-radius: 7px;
-    height: 200px;
-    width: 250px;
+    height: 35vh;
+    width: 18vw;
     margin: 10px;
 }
 
 .card-body {
     display: flex !important;
-}
-
-.proj-img:hover {
-    transform: scale(1.1);
 }
 
 /* CONSTANTS */
@@ -72,7 +68,7 @@ body {
 }
 
 .project-view {
-    width: 1100px !important;
+    width: 95vw !important;
 }
 
 .project-card {
