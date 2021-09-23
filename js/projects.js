@@ -37,6 +37,15 @@ let projectList = [
         "https://koowentu.com"
     ],
     [
+        "Henyo",
+        "Henyo is an esoteric programming language. The language consists of only seven simple commands with a data pointer and an instruction pointer. (The image prints \"Hello World\")",
+        "0.0.1",
+        "Python 3",
+        "September 19, 2021",
+        "henyo.PNG",
+        "https://github.com/jabezborja/henyo"
+    ],
+    [
         "Jabsga URL Shortener",
         "Jabsga is a free URL shortening service for making URLs more shorter and more concise. Created with Python Django Web Framework, the design is not yet good, you can help me with the design and make it better time by time 😊 Feel free to open a pull request!",
         "0.3.0-dev",

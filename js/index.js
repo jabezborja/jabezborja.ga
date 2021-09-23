@@ -20,7 +20,7 @@ const typedTextSpan = document.querySelector('.typed-text');
 const iLoveyouToo = document.querySelector('.button-contact');
 const typing = document.getElementById('title-text')
 
-const textArray = ["Jabez Borja />", "a student />", "a software developer />", "an entrepreneur />"]
+const textArray = ["Jabez Borja 👋", "a student", "a software developer", "an entrepreneur", "real-time typing this", "just joking"]
 let textArrayIndex = 0;
 let charIndex = 0;
 
@@ -32,7 +32,7 @@ function type(){
         setTimeout(type, 100);
     } else {
         typing.classList.remove('typing')
-        setTimeout(erase, 2000);
+        setTimeout(erase, 1500);
     }
 }
 
