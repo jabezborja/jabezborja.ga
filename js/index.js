@@ -1,24 +1,24 @@
 const navigation_home = document.getElementById('navbar-nav');
 
-document.addEventListener("scroll", function(){
-    var scrollY = window.scrollY;
+// document.addEventListener("scroll", function(){
+//     var scrollY = window.scrollY;
     
-    // NAVIGATION ANIMATION TRANSPARENCY \\
-    if (scrollY >= 60){
-        navigation_home.classList.add('transparent');
-        if (navigation_home.classList.contains('show-color')){
-            navigation_home.classList.remove('show-color');
-        }
-    }else{
-        navigation_home.classList.remove('transparent');
-        navigation_home.classList.add('show-color');
-    }
-})
+//     const sticked = document.getElementById("sticked");
+//     const pyfyre_sticker = document.getElementById("pyfyre-sticker");
+//     const pyfyre_image = document.getElementById("pyfyre-image");
+
+//     if (scrollY >= 700) {
+//         sticked.appendChild(pyfyre_image);
+//     } else {
+//         pyfyre_sticker.appendChild(pyfyre_image);
+//     }
+// })
 
 // FOR TITLE TYPING \\
 const typedTextSpan = document.querySelector('.typed-text');
 const iLoveyouToo = document.querySelector('.button-contact');
 const typing = document.getElementById('title-text')
+
 
 const textArray = ["Jabez Borja 👋", "a student", "a software developer", "an entrepreneur", "real-time typing this", "just joking"]
 let textArrayIndex = 0;
@@ -49,9 +49,10 @@ function erase() {
     }
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    typing.classList.remove('typing')
-    setTimeout(type, 500);
-})
+// document.addEventListener("DOMContentLoaded", function() {
+//     typing.classList.remove('typing')
+//     setTimeout(type, 500);
+// })
 
 
+// Fixed
