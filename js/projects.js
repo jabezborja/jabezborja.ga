@@ -1,30 +1,25 @@
 
-const projectTemplate = `<div class="d-flex justify-content-center">
-                    <a href="%link%" style="color: black; text-decoration: none;">
-                        <div class="card m-4 project-view project-card">
-                            <div class="card-header project-title-card">
-                                %title%
-                            </div>
-                            <div class="d-flex --main-div-container">
-                                <div>
-                                    <div class="card-body">
-                                        %desc%
-                                    </div>
-                                    <div class="ml-3">
-                                        Version Number: %version%
-                                        <br>
-                                        Language: %language%
-                                        <br>
-                                        Created on: %created%
-                                    </div>
-                                </div>
-                                <div class="w-30 float-right proj-img">
-                                    <img src="/images/projects/%image%" id="project-logo">
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>`
+const projectTemplate = `<div class="mx-1 xl:mx-10 mt-16 flex flex-col justify-center items-center">
+<div class="flex flex-col items-start">
+    <p class="mt-4 text-4xl xl:text-5xl text-[#bfbfbf] font-black">↑←↑↓→←→↓</p>
+    <p class="text-4xl xl:text-5xl text-[#303030] font-black"><span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#DC2424] to-[#4A569D]">%title%</span></p>
+</div>
+<div class="mx-auto mt-10">
+    <img class="rounded-md mt-3 border border-2" width="800" height="800" id="pyfyre-image" src="images/projects/%image%" alt="PyFyre Image Example">
+</div>
+
+<div class="lg:mx-auto mt-10 xl:w-10/12 md:8/12 text-[#222222] text-xl">
+    %desc%
+    <br>
+    <br>
+    <strong>Technologies Used</strong>:<br>
+    - %language%
+    <br>
+    <br>
+    <a class="text-sky-600" href="%link%" target="_blank" rel="noreferrer noopener">
+        Learn more... >
+    </a>
+</div>`
 
 let projectList = [
     [
@@ -37,7 +32,7 @@ let projectList = [
         "https://koowentu.com"
     ],
     [
-        "Henyo",
+        "Henyo Programming Language",
         "Henyo is an esoteric programming language. The language consists of only seven simple commands with a data pointer and an instruction pointer. (The image prints \"Hello World\")",
         "0.0.1",
         "Python 3",
@@ -51,7 +46,7 @@ let projectList = [
         "0.3.0-dev",
         "Python Django Web Framework",
         "April 1, 2021",
-        "Jabsga.PNG",
+        "Jabsga.JPG",
         "https://jabsga.herokuapp.com/"
     ],
     [
@@ -60,7 +55,7 @@ let projectList = [
         "0.2.0-beta",
         "Python",
         "March 10, 2021",
-        "PyNani_Xample.PNG",
+        "pyfyre_exp.PNG",
         "https://github.com/pyfyre/pyfyre"
     ],
     [
@@ -69,7 +64,7 @@ let projectList = [
         "0.2.1-dev",
         "Python",
         "November, 2020",
-        "TagaLag_Xample.PNG",
+        "Tagalang.JPG",
         "https://github.com/jabezborja/tagalang"
     ],
     [
