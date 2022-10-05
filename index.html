@@ -49,25 +49,44 @@
         </nav>
         
         <main>
-            <section class="flex justify-center justify-center mt-16 items-center w-screen h-fit text-[#222222]">
+            <section class="flex justify-center justify-center mt-16 items-center h-fit text-[#222222]">
                 <div class="flex flex-col mx-10 items-center h-fit w-full xl:mx-0 xl:w-10/12 lg:flex-row">
                     <div>
-                        <p class="text-5xl font-bold font-sans">Hi, I'm <strong class="font-extrabold lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r lg:from-cyan-500 lg:to-blue-500 text-cyan-500"> Jabez Torre</strong>.</p>
+                        <p class="text-5xl font-bold font-sans"><code class="title-code">Hi, I'm <span class="typed-text font-extrabold lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r lg:from-cyan-500 lg:to-blue-500 text-cyan-500"></span><span id="title-text" class="cursor typing">&nbsp;</span></code></p>
                         <p class="text-xl mt-3 xl:pr-20">A Full-Stack Software Developer, Technopreneur, and open-source advocate based in Laguna, Philippines.
                         </p>
                         <br>
                         <br>
                         <div class="flex flex-row space-x-3 mb-10">
-                            <a class="bg-[#f2f2f2] rounded-lg px-4 py-3 font-md hover:bg-[#e0e0e0]" href="mailto:jabez.natsu@gmail.com">Email me</a>
+                            <a class="bg-[#f2f2f2] rounded-lg px-4 py-3 font-md hover:bg-[#e0e0e0]" href="mailto:jabez.natsu@gmail.com">Reach me out</a>
                             <a class="bg-[#f2f2f2] rounded-lg px-4 py-3 font-md hover:bg-[#e0e0e0]" href="https://calendly.com/jabeztorre/30min">Book a meeting 📅</a>
                         </div>
                     </div>
+
                     <img class="mx-20 w-full h-fit mt-12 mr-20 lg:mt-0 md:w-6/12 lg:w-4/12 -mb-36 rounded-full" src="images/me.jpg" alt="My picture">
+    
                 </div>
             </section>
 
-            <section class="bg-[#F2F2F2] flex flex-col w-screen h-fit border-t-4 items-center">
-                <div class="flex flex-col w-9/12 lg:mx-auto w-screen h-fit pb-20">
+            <section class="bg-[#F2F2F2] flex flex-col h-fit border-t-4 items-center">
+                <div class="flex flex-col w-9/12 lg:mx-auto h-fit pb-20">
+                    <p class="ml-0 xl:ml-20 mt-52 text-5xl xl:text-8xl font-bold text-[#2222222]">What're the Technologies<br>I use...?</p>
+
+                    <div class="mt-20 flex flex-row space-x-3">
+                        <!--Selector-->
+                        <button class="frontend bg-sky-500 text-white px-4 py-2 rounded-full">Frontend</button>
+                        <button class="backend bg-slate-200 text-black px-4 py-2 rounded-full">Backend</button>
+                        <button class="mobiledev bg-slate-200 text-black px-4 py-2 rounded-full">Mobile Dev</button>
+                    </div>
+
+                    <div class="mt-5 grid grid-cols-1 md:grid-cols-3 gap-5 techList">
+                        <!--Technologies List-->
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-[#F2F2F2] flex flex-col h-fit items-center">
+                <div class="flex flex-col w-9/12 lg:mx-auto h-fit pb-20">
                     <p class="ml-0 xl:ml-20 mt-52 text-7xl xl:text-9xl font-bold text-[#2222222]">Recent<br>Projects</p>
 
                     <div class="mx-1 lg:mx-10 mt-8 flex flex-col justify-center items-center">
@@ -149,6 +168,7 @@
         </main>
 
         <script src="js/index.js"></script>
+        <script src="js/technologies.js"></script>
     </body>
 
     <footer class="bg-[#f2f2f2]">
@@ -163,3 +183,4 @@
 <!-- April 04, 2021 -->
 <!-- Sept 06, 2021 -->  
 <!-- Feb 18, 2022 -->
+<!-- Oct 05, 2022 -->
