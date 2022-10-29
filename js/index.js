@@ -18,7 +18,7 @@ const navigation_home = document.getElementById('navbar-nav');
 const typedTextSpan = document.querySelector('.typed-text');
 const typing = document.getElementById('title-text')
 
-const textArray = ["Jabez Borja.", "a student.", "a software developer."]
+const textArray = ["Jabez."]
 let textArrayIndex = 0;
 let charIndex = 0;
 
@@ -28,9 +28,6 @@ function type(){
         typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
         charIndex++;
         setTimeout(type, 100);
-    } else {
-        typing.classList.remove('typing')
-        setTimeout(erase, 1500);
     }
 }
 
