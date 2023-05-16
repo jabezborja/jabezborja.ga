@@ -27,18 +27,18 @@ let projectList = [
         "An open-source tambayan chat app that allows you to talk with strangers, have fun with Tambayan user-made bots, and more!",
         "0.1.3-alpha",
         "Next.js, Firebase, Node.js, and Tailwind",
-        "Nov, 2020",
-        "koowentu-logo.png",
-        "https://koowentu.com"
+        "Oct 31, 2022",
+        "tambayan.PNG",
+        "https://tambayan.link"
     ],
     [
         "Koowentu",
         "Koowentu is for people to share their voice with the world by allowing them to create books on the go. I've been focusing for this Startup app. We are working for this product as a team and planning to beta release soon. You can join by clicking this Project. Thank you!",
         "0.0.3-alpha",
         "Flutter, Firebase, and Python (Server)",
-        "Oct 31, 2022",
-        "tambayan.PNG",
-        "https://tambayan.link"
+        "Nov, 2020",
+        "koowentu-logo.png",
+        "https://koowentu.netlify.app"
     ],
     [
         "Henyo Programming Language",
